@@ -1,0 +1,27 @@
+
+		.work-boxes{
+			display: flex;
+			justify-content: center;
+		}
+		
+		.work-left, .work-right{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		  
+		
+		}
+		
+		.work-left h2, .work-right h2 {
+			padding-top: 10px;
+		
+		}
+		
+		#work-box1, #work-box2, #work-box3, #work-box4 {
+			margin: 20px;
+			padding: 5px;
+			width: 380px;
+			height: 440px;
+			border-bottom: 2px dotted black;
+			box-sizing: border-box;
+		}		
