@@ -3785,33 +3785,129 @@ input, select, textarea {
 		}
 
 
-		.work-boxes{
-			display: flex;
-			justify-content: center;
-		}
+.work-boxes {
+	display: flex;
+	justify-content: center;
+}
 		
-		.work-left, .work-right{
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-		  
+.work-left, .work-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+		  	
+}
 		
-		}
+.work-left h2, .work-right h2 {
+	padding-top: 10px;
 		
-		.work-left h2, .work-right h2 {
-			padding-top: 10px;
+	}
 		
-		}
-		
-		#work-box1, #work-box2, #work-box3, #work-box4 {
-			margin: 20px;
-			padding: 5px;
-			width: 380px;
-			border-bottom: 2px dotted black;
-			box-sizing: border-box;
-		}		
+#work-box1, #work-box2, #work-box3, #work-box4 {
+	margin: 20px;
+	padding: 5%;
+	padding-bottom: 5%;
+	width: 380px;
+	border-bottom: 2px dotted black;
+	box-sizing: border-box;
+	}		
+
+#work-box3 {
+		padding-top: 0%;
+}
+
+.work-right #work-box3 h2 {
+	padding-top: 0px;
+}
+	
 
 .UI-project, .UI-Sprint, .UI-Flex, .Collab {
 	width: 300px;
     height: auto;
+}
+
+#main {
+	padding: 5%;
+	padding-bottom: 10%;
+}
+
+.fa-home {
+	color: white;
+}
+
+@media (max-width: 800px) {
+
+	#main {
+		height: auto;
+	}
+	
+    .work-boxes{
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 0px;
+    } */
+
+	#work-box1, #work-box2, 
+	#work-box3, #work-box4 {
+		margin: 10px;
+		padding: 1%;
+		width: 95%;
+		height: auto;
+		border: 1px solid black;
+	
+	}
+	
+	.work-boxes {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 40px;
+		width:100%;
+	}
+
+
+   
+	/* footer {
+		padding: 20px 0;
+		width: 100%;
+  		height: auto;
+	}*/
+} 
+
+@media (max-width: 400px) {
+
+    #main {
+		padding: 0%;
+		padding-left: 0%;
+    }
+
+   #main .work-boxes {
+		padding: 0%;
+		padding-left: 0%;
+	}
+
+	#main {
+
+		padding-bottom: 5%;
+	} 
+
+    #main .work-boxes {
+        width: 85%;
+        height: auto;
+	}
+
+	#work-box1, #work-box2, #work-box3, #work-box4 {
+		margin: 5%;
+		width: 95%;
+		height: auto;
+		border-bottom: 2px dotted black;
+		box-sizing: border-box;
+	}
+
+	#work-box1 img, #work-box2  img, #work-box3  img, #work-box4  img {
+		/* display: flex;
+		justify-content: center;
+		align-items: center; */
+		width: 90%;
+		height: auto;
+	}
 }
